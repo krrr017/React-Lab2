@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const socialIcons = [
     {
@@ -30,15 +30,13 @@ const socialIcons = [
 const test = (
         <section>
             <div className="wrapper">
-                <div className="button">
                 <IconComponent icon={socialIcons[0].icon} title={socialIcons[0].title} />
                 <IconComponent icon={socialIcons[1].icon} title={socialIcons[1].title} />
                 <IconComponent icon={socialIcons[2].icon} title={socialIcons[2].title} />
                 <IconComponent icon={socialIcons[3].icon} title={socialIcons[3].title} />
                 <IconComponent icon={socialIcons[4].icon} title={socialIcons[4].title} />
                 <IconComponent icon={socialIcons[5].icon} title={socialIcons[5].title} />
-                </div>
-            </div>    
+            </div>   
         </section>
         );
 
